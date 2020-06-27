@@ -13,7 +13,7 @@ public class Rotator : MonoBehaviour
         transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
 
 
-        ChangeColorsDynamic(GetComponent<Renderer>());
+        //ChangeColorsDynamic(GetComponent<Renderer>());
 
 
 
@@ -24,7 +24,7 @@ public class Rotator : MonoBehaviour
     //Dynamically change colors
     void ChangeColorsDynamic(Renderer renderer)
     {
-
+       
         if (renderer.material.GetColor("_Color") == Color.red)
         {
             //Call SetColor using the shader property name "_Color" and setting the color to red
