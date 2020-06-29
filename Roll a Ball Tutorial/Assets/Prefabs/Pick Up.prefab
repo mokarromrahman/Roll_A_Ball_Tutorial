@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9763346b4498642aef98e3e307a4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interpolationPeriod: 0.1
 --- !u!54 &6849078191839812287
 Rigidbody:
   m_ObjectHideFlags: 0
